@@ -14,6 +14,10 @@ html{
 }
 body{
     width: 100%;
+    background-image: url(/UI/images/background.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .wrapper{
@@ -128,7 +132,38 @@ footer{
 
 /* Responsive */
 @media only screen and (max-width: 991px){
-    
+    header p {
+        width: 100%;
+    }
+    .workimages a img {
+        margin: 2%;
+        width: 96%;
+    }
+    .workimages2 a img{
+        margin: 2%;
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        width: 96%;
+        margin: 30 px auto 100px auto;
+        text-align: left;
+    }
+    .whatWeDo {
+        text-align: left;
+        width: 96%;
+        margin: 70px auto 100px auto;
+    }
+    .food{
+        visibility: hidden;
+    }
+    footer {
+        text-align: left;
+        width: 90%;
+        margin: 60px auto;
+    }
 }
 
 
