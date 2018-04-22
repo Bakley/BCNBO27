@@ -23,6 +23,6 @@ JavaScript
 
 # Github pages link
 
-Author:
+# Author:
 Barclay K Koin.
 
