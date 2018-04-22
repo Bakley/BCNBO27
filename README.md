@@ -22,6 +22,7 @@ CSS3
 JavaScript
 
 # Github pages link
+https://bakley.github.io/BCNBO27/UI/index.html
 
 # Author:
 Barclay K Koin.
